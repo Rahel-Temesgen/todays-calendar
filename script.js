@@ -14,7 +14,7 @@ const currentMonth = months[today.getMonth()];
 const currentDay = days[today.getDay()];
 const currentDate = today.getDate();
 
-year.textContent = currentDate;
+year.textContent = currentYear;
 month.textContent = currentMonth;
 day.textContent = currentDay;
 date.textContent = currentDate;
